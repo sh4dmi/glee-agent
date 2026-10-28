@@ -1,5 +1,7 @@
 # GLEE negotiation agent
 
+[![CI](https://github.com/sh4dmi/glee-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/sh4dmi/glee-agent/actions/workflows/ci.yml)
+
 An agent for the three economic games of [GLEE](https://github.com/eilamshapira/GLEE) (bargaining,
 negotiation and persuasion) that best-responds to how LLMs actually play, learned from 77,000
 LLM-vs-LLM games.
