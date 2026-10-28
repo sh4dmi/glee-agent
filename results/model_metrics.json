@@ -1,0 +1,421 @@
+{
+  "bargaining_accept": {
+    "gradient_boosting": {
+      "n": 17756,
+      "positive_rate": 0.3585,
+      "log_loss": 0.5194,
+      "log_loss_base_rate": 0.6526,
+      "auc": 0.7901,
+      "brier": 0.1732
+    },
+    "logistic_baseline": {
+      "n": 17756,
+      "positive_rate": 0.3585,
+      "log_loss": 0.5541,
+      "log_loss_base_rate": 0.6526,
+      "auc": 0.7595,
+      "brier": 0.1866
+    },
+    "calibration": [
+      {
+        "predicted": 0.0384,
+        "observed": 0.0416,
+        "n": 1780
+      },
+      {
+        "predicted": 0.1036,
+        "observed": 0.1163,
+        "n": 1772
+      },
+      {
+        "predicted": 0.1666,
+        "observed": 0.1807,
+        "n": 1776
+      },
+      {
+        "predicted": 0.2199,
+        "observed": 0.2451,
+        "n": 1783
+      },
+      {
+        "predicted": 0.2701,
+        "observed": 0.2518,
+        "n": 1771
+      },
+      {
+        "predicted": 0.3263,
+        "observed": 0.3188,
+        "n": 1772
+      },
+      {
+        "predicted": 0.4156,
+        "observed": 0.4254,
+        "n": 1775
+      },
+      {
+        "predicted": 0.536,
+        "observed": 0.5113,
+        "n": 1776
+      },
+      {
+        "predicted": 0.6752,
+        "observed": 0.6659,
+        "n": 1775
+      },
+      {
+        "predicted": 0.8118,
+        "observed": 0.8288,
+        "n": 1776
+      }
+    ]
+  },
+  "negotiation_accept_buyer": {
+    "gradient_boosting": {
+      "n": 11860,
+      "positive_rate": 0.1022,
+      "log_loss": 0.1436,
+      "log_loss_base_rate": 0.3299,
+      "auc": 0.9621,
+      "brier": 0.0456
+    },
+    "logistic_baseline": {
+      "n": 11860,
+      "positive_rate": 0.1022,
+      "log_loss": 0.1664,
+      "log_loss_base_rate": 0.3299,
+      "auc": 0.947,
+      "brier": 0.0538
+    },
+    "calibration": [
+      {
+        "predicted": 0.0002,
+        "observed": 0.0,
+        "n": 2348
+      },
+      {
+        "predicted": 0.0002,
+        "observed": 0.0,
+        "n": 1559
+      },
+      {
+        "predicted": 0.0003,
+        "observed": 0.0,
+        "n": 874
+      },
+      {
+        "predicted": 0.0005,
+        "observed": 0.0,
+        "n": 1153
+      },
+      {
+        "predicted": 0.0013,
+        "observed": 0.0025,
+        "n": 1182
+      },
+      {
+        "predicted": 0.0152,
+        "observed": 0.0135,
+        "n": 1189
+      },
+      {
+        "predicted": 0.066,
+        "observed": 0.0583,
+        "n": 1183
+      },
+      {
+        "predicted": 0.27,
+        "observed": 0.2789,
+        "n": 1187
+      },
+      {
+        "predicted": 0.6576,
+        "observed": 0.6692,
+        "n": 1185
+      }
+    ]
+  },
+  "negotiation_john_buyer": {
+    "gradient_boosting": {
+      "n": 10648,
+      "positive_rate": 0.2585,
+      "log_loss": 0.4178,
+      "log_loss_base_rate": 0.5715,
+      "auc": 0.8345,
+      "brier": 0.1391
+    },
+    "logistic_baseline": {
+      "n": 10648,
+      "positive_rate": 0.2585,
+      "log_loss": 0.4456,
+      "log_loss_base_rate": 0.5715,
+      "auc": 0.8111,
+      "brier": 0.1488
+    },
+    "calibration": [
+      {
+        "predicted": 0.0001,
+        "observed": 0.0,
+        "n": 1065
+      },
+      {
+        "predicted": 0.0021,
+        "observed": 0.0047,
+        "n": 1065
+      },
+      {
+        "predicted": 0.0605,
+        "observed": 0.0535,
+        "n": 1065
+      },
+      {
+        "predicted": 0.1074,
+        "observed": 0.1006,
+        "n": 1064
+      },
+      {
+        "predicted": 0.1646,
+        "observed": 0.1699,
+        "n": 1077
+      },
+      {
+        "predicted": 0.2341,
+        "observed": 0.2555,
+        "n": 1053
+      },
+      {
+        "predicted": 0.3355,
+        "observed": 0.3587,
+        "n": 1065
+      },
+      {
+        "predicted": 0.429,
+        "observed": 0.4319,
+        "n": 1065
+      },
+      {
+        "predicted": 0.511,
+        "observed": 0.4878,
+        "n": 1066
+      },
+      {
+        "predicted": 0.7023,
+        "observed": 0.7244,
+        "n": 1063
+      }
+    ]
+  },
+  "negotiation_accept_seller": {
+    "gradient_boosting": {
+      "n": 7145,
+      "positive_rate": 0.1111,
+      "log_loss": 0.1798,
+      "log_loss_base_rate": 0.3489,
+      "auc": 0.9435,
+      "brier": 0.0571
+    },
+    "logistic_baseline": {
+      "n": 7145,
+      "positive_rate": 0.1111,
+      "log_loss": 0.2147,
+      "log_loss_base_rate": 0.3489,
+      "auc": 0.9156,
+      "brier": 0.066
+    },
+    "calibration": [
+      {
+        "predicted": 0.0,
+        "observed": 0.0,
+        "n": 718
+      },
+      {
+        "predicted": 0.0001,
+        "observed": 0.0,
+        "n": 712
+      },
+      {
+        "predicted": 0.0003,
+        "observed": 0.0,
+        "n": 714
+      },
+      {
+        "predicted": 0.001,
+        "observed": 0.0,
+        "n": 714
+      },
+      {
+        "predicted": 0.0036,
+        "observed": 0.0,
+        "n": 715
+      },
+      {
+        "predicted": 0.0138,
+        "observed": 0.0139,
+        "n": 717
+      },
+      {
+        "predicted": 0.0331,
+        "observed": 0.0309,
+        "n": 712
+      },
+      {
+        "predicted": 0.0966,
+        "observed": 0.1031,
+        "n": 718
+      },
+      {
+        "predicted": 0.3147,
+        "observed": 0.3352,
+        "n": 710
+      },
+      {
+        "predicted": 0.6579,
+        "observed": 0.6294,
+        "n": 715
+      }
+    ]
+  },
+  "negotiation_john_seller": {
+    "gradient_boosting": {
+      "n": 6351,
+      "positive_rate": 0.1537,
+      "log_loss": 0.3333,
+      "log_loss_base_rate": 0.429,
+      "auc": 0.8088,
+      "brier": 0.105
+    },
+    "logistic_baseline": {
+      "n": 6351,
+      "positive_rate": 0.1537,
+      "log_loss": 0.3477,
+      "log_loss_base_rate": 0.429,
+      "auc": 0.7826,
+      "brier": 0.1091
+    },
+    "calibration": [
+      {
+        "predicted": 0.0007,
+        "observed": 0.0,
+        "n": 663
+      },
+      {
+        "predicted": 0.0017,
+        "observed": 0.0016,
+        "n": 611
+      },
+      {
+        "predicted": 0.0384,
+        "observed": 0.0364,
+        "n": 632
+      },
+      {
+        "predicted": 0.0749,
+        "observed": 0.0598,
+        "n": 635
+      },
+      {
+        "predicted": 0.1046,
+        "observed": 0.0913,
+        "n": 635
+      },
+      {
+        "predicted": 0.1357,
+        "observed": 0.148,
+        "n": 635
+      },
+      {
+        "predicted": 0.1747,
+        "observed": 0.178,
+        "n": 635
+      },
+      {
+        "predicted": 0.2364,
+        "observed": 0.2288,
+        "n": 638
+      },
+      {
+        "predicted": 0.3334,
+        "observed": 0.2959,
+        "n": 632
+      },
+      {
+        "predicted": 0.524,
+        "observed": 0.4976,
+        "n": 635
+      }
+    ]
+  },
+  "persuasion_buy": {
+    "gradient_boosting": {
+      "n": 26540,
+      "positive_rate": 0.5251,
+      "log_loss": 0.2169,
+      "log_loss_base_rate": 0.6919,
+      "auc": 0.9671,
+      "brier": 0.0633
+    },
+    "logistic_baseline": {
+      "n": 26540,
+      "positive_rate": 0.5251,
+      "log_loss": 0.2656,
+      "log_loss_base_rate": 0.6919,
+      "auc": 0.9521,
+      "brier": 0.0768
+    },
+    "calibration": [
+      {
+        "predicted": 0.001,
+        "observed": 0.0,
+        "n": 2751
+      },
+      {
+        "predicted": 0.0095,
+        "observed": 0.0104,
+        "n": 2587
+      },
+      {
+        "predicted": 0.0339,
+        "observed": 0.0381,
+        "n": 2649
+      },
+      {
+        "predicted": 0.0549,
+        "observed": 0.0539,
+        "n": 2634
+      },
+      {
+        "predicted": 0.5118,
+        "observed": 0.4911,
+        "n": 2649
+      },
+      {
+        "predicted": 0.833,
+        "observed": 0.8406,
+        "n": 2654
+      },
+      {
+        "predicted": 0.9043,
+        "observed": 0.9145,
+        "n": 2654
+      },
+      {
+        "predicted": 0.946,
+        "observed": 0.9141,
+        "n": 2655
+      },
+      {
+        "predicted": 0.9945,
+        "observed": 0.9913,
+        "n": 2655
+      },
+      {
+        "predicted": 0.9987,
+        "observed": 0.9981,
+        "n": 2652
+      }
+    ]
+  },
+  "persuasion_seller_recommend_rate": {
+    "low": 0.2958,
+    "high": 0.9939
+  }
+}
