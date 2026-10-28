@@ -78,7 +78,7 @@ The maths, design choices and limitations are in [`docs/DESIGN.md`](docs/DESIGN.
 ## Quick start
 
 ```bash
-pip install -e .            # Python 3.10+
+pip install -e .            # Python 3.11+
 cp .env.example .env        # optional: GLEE_KEY, LLM_API_KEY
 glee-agent --port 5001      # or: python -m glee_agent.server --port 5001
 ```
